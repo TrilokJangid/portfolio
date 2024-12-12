@@ -37,11 +37,7 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+              Build customer-facing UI and back-end service. • API Development with Node.js and Express.js. • Adopted the latest RxJS Methodologies to build robust web apps. • Troubleshoot Debug in existing Software. • Writing Reusable testable and efficient code. • Client Interaction in a different project. • Adopted the latest React JS and Redux to build robust web apps.
             </p>
             <br />
             {/* social media icons */}
