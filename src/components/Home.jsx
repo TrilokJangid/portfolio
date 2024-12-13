@@ -1,6 +1,7 @@
 import React from "react";
 
 import photo from "../../public/photo.jpg";
+import resume from "../../public/files/Resume_4.pdf";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -40,6 +41,17 @@ function Home() {
               Build customer-facing UI and back-end service. • API Development with Node.js and Express.js. • Adopted the latest RxJS Methodologies to build robust web apps. • Troubleshoot Debug in existing Software. • Writing Reusable testable and efficient code. • Client Interaction in a different project. • Adopted the latest React JS and Redux to build robust web apps.
             </p>
             <br />
+            { /* resume download button     */}
+
+            <a href={resume} download>
+              <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
+                Download Resume
+              </button>
+            </a>
+
+            <br />
+            <br />
+
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
               <div className="  space-y-2">
