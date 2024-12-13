@@ -43,7 +43,7 @@ function Home() {
             <br />
             { /* resume download button     */}
 
-            <a href={resume} download>
+            <a href={resume} download target="_blank">
               <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
                 Download Resume
               </button>
